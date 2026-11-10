@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1040" viewBox="0 0 1440 1040">
+<rect width="1440" height="1040" fill="#06080D"/>
+<g transform="translate(40,40)">
+<rect width="650" height="960" rx="18" fill="#0B1020" stroke="#34425F"/>
+<path d="M28 30l12 22 12-22" fill="none" stroke="#23F3F4" stroke-width="3"/>
+<text x="72" y="52" fill="#EAF1FF" font-family="sans-serif" font-size="25" letter-spacing="5">VYNTAR</text>
+<text x="28" y="99" fill="#B3C1DA" font-family="sans-serif" font-size="16">Vyntar Pulse · Precision in Colour</text>
+<rect x="16" y="128" width="618" height="438" rx="8" fill="#121A2D"/>
+<text x="30" y="164" fill="#99A9C6" font-family="monospace" font-size="14">01</text>
+<text x="66" y="164" fill="#99A9C6" font-family="monospace" font-size="17">// A calm surface. A precise signal.</text>
+<text x="30" y="195" fill="#99A9C6" font-family="monospace" font-size="14">02</text>
+<text x="66" y="195" fill="#B289FF" font-family="monospace" font-size="17">import Foundation</text>
+<text x="30" y="226" fill="#99A9C6" font-family="monospace" font-size="14">03</text>
+<text x="66" y="226" fill="#81AEFF" font-family="monospace" font-size="17">struct Theme: Sendable {</text>
+<text x="30" y="257" fill="#99A9C6" font-family="monospace" font-size="14">04</text>
+<text x="66" y="257" fill="#EAF1FF" font-family="monospace" font-size="17">    let name: String</text>
+<text x="30" y="288" fill="#99A9C6" font-family="monospace" font-size="14">05</text>
+<text x="66" y="288" fill="#EAF1FF" font-family="monospace" font-size="17">    let accents: [String]</text>
+<text x="30" y="319" fill="#99A9C6" font-family="monospace" font-size="14">06</text>
+<text x="66" y="319" fill="#23F3F4" font-family="monospace" font-size="17">    func render() -&gt; String {</text>
+<text x="30" y="350" fill="#99A9C6" font-family="monospace" font-size="14">07</text>
+<text x="66" y="350" fill="#83E5AE" font-family="monospace" font-size="17">        &quot;Precision in Colour&quot;</text>
+<text x="30" y="381" fill="#99A9C6" font-family="monospace" font-size="14">08</text>
+<text x="66" y="381" fill="#B3C1DA" font-family="monospace" font-size="17">    }</text>
+<text x="30" y="412" fill="#99A9C6" font-family="monospace" font-size="14">09</text>
+<text x="66" y="412" fill="#B3C1DA" font-family="monospace" font-size="17">}</text>
+<text x="30" y="443" fill="#99A9C6" font-family="monospace" font-size="14">10</text>
+<text x="66" y="443" fill="#E7AEFF" font-family="monospace" font-size="17">let contrast = 4.5</text>
+<text x="30" y="474" fill="#99A9C6" font-family="monospace" font-size="14">11</text>
+<text x="66" y="474" fill="#FFCB7C" font-family="monospace" font-size="17">// Warnings stay visible.</text>
+<text x="30" y="505" fill="#99A9C6" font-family="monospace" font-size="14">12</text>
+<text x="66" y="505" fill="#FF8C9F" font-family="monospace" font-size="17">// Errors stay unmistakable.</text>
+<text x="28" y="615" fill="#B3C1DA" font-family="sans-serif" font-size="14" letter-spacing="2">DIFF · FOREGROUND ONLY</text>
+<text x="28" y="655" fill="#99A9C6" font-family="monospace" font-size="18">@@ Theme.swift</text>
+<text x="28" y="685" fill="#FF8C9F" font-family="monospace" font-size="18">- let theme = &quot;Before&quot;</text>
+<text x="28" y="715" fill="#83E5AE" font-family="monospace" font-size="18">+ let theme = &quot;Vyntar&quot;</text>
+<text x="28" y="745" fill="#EAF1FF" font-family="monospace" font-size="18">  render(theme)</text>
+<text x="28" y="825" fill="#B3C1DA" font-family="sans-serif" font-size="14" letter-spacing="2">ONE PALETTE · FOUR WORKSPACES</text>
+<rect x="28" y="850" width="65" height="24" rx="4" fill="#7588A8"/>
+<rect x="103" y="850" width="65" height="24" rx="4" fill="#FF8C9F"/>
+<rect x="178" y="850" width="65" height="24" rx="4" fill="#83E5AE"/>
+<rect x="253" y="850" width="65" height="24" rx="4" fill="#FFCB7C"/>
+<rect x="328" y="850" width="65" height="24" rx="4" fill="#81AEFF"/>
+<rect x="403" y="850" width="65" height="24" rx="4" fill="#B289FF"/>
+<rect x="478" y="850" width="65" height="24" rx="4" fill="#23F3F4"/>
+<rect x="553" y="850" width="65" height="24" rx="4" fill="#B3C1DA"/>
+<rect x="28" y="884" width="65" height="24" rx="4" fill="#99A9C6"/>
+<rect x="103" y="884" width="65" height="24" rx="4" fill="#FFB0BD"/>
+<rect x="178" y="884" width="65" height="24" rx="4" fill="#A8F6C6"/>
+<rect x="253" y="884" width="65" height="24" rx="4" fill="#FFE2A9"/>
+<rect x="328" y="884" width="65" height="24" rx="4" fill="#A9C9FF"/>
+<rect x="403" y="884" width="65" height="24" rx="4" fill="#E7AEFF"/>
+<rect x="478" y="884" width="65" height="24" rx="4" fill="#A5FBFF"/>
+<rect x="553" y="884" width="65" height="24" rx="4" fill="#EAF1FF"/>
+</g>
+<g transform="translate(750,40)">
+<rect width="650" height="960" rx="18" fill="#090B10" stroke="#303847"/>
+<path d="M28 30l12 22 12-22" fill="none" stroke="#82DCE2" stroke-width="3"/>
+<text x="72" y="52" fill="#E1E8F2" font-family="sans-serif" font-size="25" letter-spacing="5">VYNTAR</text>
+<text x="28" y="99" fill="#AAB6C8" font-family="sans-serif" font-size="16">Vyntar Endurance · Precision in Colour</text>
+<rect x="16" y="128" width="618" height="438" rx="8" fill="#101318"/>
+<text x="30" y="164" fill="#97A4B9" font-family="monospace" font-size="14">01</text>
+<text x="66" y="164" fill="#97A4B9" font-family="monospace" font-size="17">// A calm surface. A precise signal.</text>
+<text x="30" y="195" fill="#97A4B9" font-family="monospace" font-size="14">02</text>
+<text x="66" y="195" fill="#BCABEF" font-family="monospace" font-size="17">import Foundation</text>
+<text x="30" y="226" fill="#97A4B9" font-family="monospace" font-size="14">03</text>
+<text x="66" y="226" fill="#9ABAF0" font-family="monospace" font-size="17">struct Theme: Sendable {</text>
+<text x="30" y="257" fill="#97A4B9" font-family="monospace" font-size="14">04</text>
+<text x="66" y="257" fill="#E1E8F2" font-family="monospace" font-size="17">    let name: String</text>
+<text x="30" y="288" fill="#97A4B9" font-family="monospace" font-size="14">05</text>
+<text x="66" y="288" fill="#E1E8F2" font-family="monospace" font-size="17">    let accents: [String]</text>
+<text x="30" y="319" fill="#97A4B9" font-family="monospace" font-size="14">06</text>
+<text x="66" y="319" fill="#82DCE2" font-family="monospace" font-size="17">    func render() -&gt; String {</text>
+<text x="30" y="350" fill="#97A4B9" font-family="monospace" font-size="14">07</text>
+<text x="66" y="350" fill="#A0D4B0" font-family="monospace" font-size="17">        &quot;Precision in Colour&quot;</text>
+<text x="30" y="381" fill="#97A4B9" font-family="monospace" font-size="14">08</text>
+<text x="66" y="381" fill="#AAB6C8" font-family="monospace" font-size="17">    }</text>
+<text x="30" y="412" fill="#97A4B9" font-family="monospace" font-size="14">09</text>
+<text x="66" y="412" fill="#AAB6C8" font-family="monospace" font-size="17">}</text>
+<text x="30" y="443" fill="#97A4B9" font-family="monospace" font-size="14">10</text>
+<text x="66" y="443" fill="#D2B5E5" font-family="monospace" font-size="17">let contrast = 4.5</text>
+<text x="30" y="474" fill="#97A4B9" font-family="monospace" font-size="14">11</text>
+<text x="66" y="474" fill="#E7C89A" font-family="monospace" font-size="17">// Warnings stay visible.</text>
+<text x="30" y="505" fill="#97A4B9" font-family="monospace" font-size="14">12</text>
+<text x="66" y="505" fill="#EDA1AD" font-family="monospace" font-size="17">// Errors stay unmistakable.</text>
+<text x="28" y="615" fill="#AAB6C8" font-family="sans-serif" font-size="14" letter-spacing="2">DIFF · FOREGROUND ONLY</text>
+<text x="28" y="655" fill="#97A4B9" font-family="monospace" font-size="18">@@ Theme.swift</text>
+<text x="28" y="685" fill="#EDA1AD" font-family="monospace" font-size="18">- let theme = &quot;Before&quot;</text>
+<text x="28" y="715" fill="#A0D4B0" font-family="monospace" font-size="18">+ let theme = &quot;Vyntar&quot;</text>
+<text x="28" y="745" fill="#E1E8F2" font-family="monospace" font-size="18">  render(theme)</text>
+<text x="28" y="825" fill="#AAB6C8" font-family="sans-serif" font-size="14" letter-spacing="2">ONE PALETTE · FOUR WORKSPACES</text>
+<rect x="28" y="850" width="65" height="24" rx="4" fill="#758298"/>
+<rect x="103" y="850" width="65" height="24" rx="4" fill="#EDA1AD"/>
+<rect x="178" y="850" width="65" height="24" rx="4" fill="#A0D4B0"/>
+<rect x="253" y="850" width="65" height="24" rx="4" fill="#E7C89A"/>
+<rect x="328" y="850" width="65" height="24" rx="4" fill="#9ABAF0"/>
+<rect x="403" y="850" width="65" height="24" rx="4" fill="#BCABEF"/>
+<rect x="478" y="850" width="65" height="24" rx="4" fill="#82DCE2"/>
+<rect x="553" y="850" width="65" height="24" rx="4" fill="#AAB6C8"/>
+<rect x="28" y="884" width="65" height="24" rx="4" fill="#97A4B9"/>
+<rect x="103" y="884" width="65" height="24" rx="4" fill="#F5BEC8"/>
+<rect x="178" y="884" width="65" height="24" rx="4" fill="#BBE4C8"/>
+<rect x="253" y="884" width="65" height="24" rx="4" fill="#F4DDB8"/>
+<rect x="328" y="884" width="65" height="24" rx="4" fill="#B7CEF4"/>
+<rect x="403" y="884" width="65" height="24" rx="4" fill="#D2B5E5"/>
+<rect x="478" y="884" width="65" height="24" rx="4" fill="#ACE9ED"/>
+<rect x="553" y="884" width="65" height="24" rx="4" fill="#E1E8F2"/>
+</g>
+</svg>

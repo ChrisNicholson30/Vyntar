@@ -1,0 +1,6 @@
+--- a/Theme.swift
++++ b/Theme.swift
+@@ -1,2 +1,2 @@
+-let theme = "Before"
++let theme = "Vyntar Pulse"
+ print(theme)

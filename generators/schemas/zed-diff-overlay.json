@@ -1,0 +1,90 @@
+{
+  "source": "https://github.com/zed-industries/zed/blob/main/crates/settings_content/src/theme.rs",
+  "source_sha256": "13d2a50b94db38b3a328904847330a834bc3e215da369e301ca2b3ea2b3c035f",
+  "properties": {
+    "editor.diff_hunk.added.background": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "editor.diff_hunk.added.hollow_background": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "editor.diff_hunk.added.hollow_border": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "editor.diff_hunk.deleted.background": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "editor.diff_hunk.deleted.hollow_background": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "editor.diff_hunk.deleted.hollow_border": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version_control.added": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version_control.deleted": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version_control.modified": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version_control.renamed": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version_control.conflict": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version_control.ignored": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version_control.word_added": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "version_control.word_deleted": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

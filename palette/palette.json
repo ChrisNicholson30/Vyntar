@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "base": {
+    "midnight": "#0B1020",
+    "panel": "#121A2D",
+    "raised": "#1B2640",
+    "line": "#151E32",
+    "edge": "#34425F",
+    "selection": "#23334F",
+    "ice": "#EAF1FF",
+    "silver": "#B3C1DA",
+    "slate": "#99A9C6",
+    "cyan": "#23F3F4",
+    "violet": "#B289FF",
+    "blue": "#81AEFF",
+    "mint": "#83E5AE",
+    "orchid": "#E7AEFF",
+    "amber": "#FFCB7C",
+    "coral": "#FF8C9F",
+    "black": "#7588A8",
+    "bright_red": "#FFB0BD",
+    "bright_green": "#A8F6C6",
+    "bright_yellow": "#FFE2A9",
+    "bright_blue": "#A9C9FF",
+    "bright_cyan": "#A5FBFF"
+  },
+  "variants": {
+    "pulse": {
+      "name": "Vyntar Pulse",
+      "overrides": {}
+    },
+    "endurance": {
+      "name": "Vyntar Endurance",
+      "overrides": {
+        "midnight": "#090B10",
+        "panel": "#101318",
+        "raised": "#191E27",
+        "line": "#12161E",
+        "edge": "#303847",
+        "selection": "#263140",
+        "ice": "#E1E8F2",
+        "silver": "#AAB6C8",
+        "slate": "#97A4B9",
+        "cyan": "#82DCE2",
+        "violet": "#BCABEF",
+        "blue": "#9ABAF0",
+        "mint": "#A0D4B0",
+        "orchid": "#D2B5E5",
+        "amber": "#E7C89A",
+        "coral": "#EDA1AD",
+        "black": "#758298",
+        "bright_red": "#F5BEC8",
+        "bright_green": "#BBE4C8",
+        "bright_yellow": "#F4DDB8",
+        "bright_blue": "#B7CEF4",
+        "bright_cyan": "#ACE9ED"
+      }
+    }
+  }
+}

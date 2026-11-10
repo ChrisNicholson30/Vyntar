@@ -1,0 +1,20 @@
+name: Validate themes
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 generators/validate-palette.py
+      - run: python3 generators/generate-themes.py --check
+      - run: python3 -m unittest discover -s tests -v
+      - run: swift tests/verify-native-colors.swift themes/terminal/*.terminal
+      - run: plutil -lint themes/terminal/*.terminal themes/codex/*.tmTheme
+      - run: bash -n scripts/lib/runtime.sh bin/vyntar install.sh update.sh uninstall.sh
+      - run: shasum -a 256 -c MANIFEST.sha256
+      - run: python3 generators/package.py --archive
